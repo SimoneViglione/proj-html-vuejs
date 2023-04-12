@@ -50,6 +50,7 @@
     }
     .causes-title {
         text-align: center;
+        margin-top: 3rem;
     }
 
     .gallery {
