@@ -1,18 +1,17 @@
 <script>
     import PageHeader from './components/PageHeader.vue'
+    import PageMain from './components/PageMain.vue'
 
     export default {
         name: 'App',
-        components: {PageHeader},
+        components: {PageHeader, PageMain},
 
         data() {
             return {
-                headerMenu: [
-                    {
-                        "logo": "https://static.dc.com/2023-03/LEGIONOB_Cv1_00111_DIGITAL.jpg?w=640",
-                        "headerNav": ["HOME", "MISSION", "CAUSES", "JOURNAL", "DONATE"]
-                    }
-                ]
+                links: ["HOME", "MISSION", "CAUSES", "JOURNAL", "DONATE"],
+                logo: "../public/logo.png",
+                slogan: ["MAKE A DIFFERENCE", "As long as poverty, injustice & inequality persist, none of us can truly rest"],
+                buttons: ["OUR MISSION", "DONATE NOW"]
             }
         }
     }
@@ -20,7 +19,9 @@
 
 <template>
     <header>
-        <PageHeader :nav="headerMenu"/>
+        <PageHeader :links="links" :logo="logo" :slogan="slogan" :buttons="buttons"/>
+
+        <PageMain/>
     </header>
 </template>
 

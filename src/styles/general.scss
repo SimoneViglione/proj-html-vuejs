@@ -10,7 +10,7 @@
     --sienna: rgb(237, 104, 100);
     --french: rgb(186, 186, 188);
     --jumbo: rgb(120, 120, 123);
-    --goldenrod: rgb(252, 214, 108);
+    --my_goldenrod: rgb(252, 214, 108);
     --tabasco: rgb(146, 52, 15);
     --rosefog: rgb(235, 202, 197);
     --makara: rgb(141, 124, 109);
@@ -20,4 +20,14 @@
     --sambuca: rgb(61, 37, 18);
     --thunder: rgb(23, 18, 22);
     --putty: rgb(233, 200, 153);
+  }
+
+  .transparent-button {
+    background-color: transparent;
+    padding: 8px;
+    color: white;
+  }
+  
+  ul {
+    list-style: none;
   }
