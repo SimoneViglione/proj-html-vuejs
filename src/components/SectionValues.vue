@@ -38,7 +38,7 @@
 <template>
     <section id="values">
       
-            <div class="value-header">
+            <div class="value-title">
                 
                 <h1>OUR VALUES</h1>
 
@@ -66,15 +66,9 @@
         color: white;
         height: 700px;
 
-        .value-header {
+        .value-title {
             padding-top: 3rem;
             text-align: center;
-
-            .underliner {
-                border: solid 2px var(--my_goldenrod);
-                width: 150px;
-                margin: 2rem 0 2rem 45%;
-            }
         }
 
         .cards-container {

@@ -1,10 +1,12 @@
 <script>
     import SectionMission from './SectionMission.vue'
     import SectionValues from './SectionValues.vue'
+    import SectionCauses from './SectionCauses.vue';
+
 
     export default {
         name: 'PageMain',   
-        components: {SectionMission, SectionValues},
+        components: { SectionMission, SectionValues, SectionCauses,},
         props: {
             buttons: Array,
             slogan: Array
@@ -17,6 +19,8 @@
         <SectionMission :buttons="buttons" slogan="slogan"/>
 
         <SectionValues :buttons="buttons" slogan="slogan"/>
+
+        <SectionCauses />
         
     </main>
 </template>
