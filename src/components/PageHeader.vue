@@ -22,7 +22,7 @@
         <div class="slogan">
             <h1>{{ slogan[0] }}</h1>
             <p>{{ slogan[1] }}</p>
-            <button class="transparent-button"> {{ buttons[0] }} </button> <button class="transparent-button"> {{ buttons[1] }} </button>
+            <button class="transparent-button"> {{ buttons[0] }} </button> <button class="yellow-button"> {{ buttons[1] }} </button>
 
         </div>
     </div>
@@ -30,9 +30,9 @@
 
 <style scoped lang="scss">
     .jumbotron {
-        background-image: url(../assets/homepage.jpg);
+        background-image: url(../assets/home-header.jpg);
         background-size: cover;
-        height: 700px;
+        height: 710px;
         color: white;
         width: 100%;
     }
@@ -74,12 +74,16 @@
 
     .slogan {
         text-align: center;
-        margin-top: 12rem;
+        margin-top: 14rem;
 
-            p {
-                margin-top: 1rem;
-                color: rgba(255, 255, 255, 0.75);
+        h1 {
+                font-size: 3rem;
             }
+
+        p {
+            margin-top: 1rem;
+            color: rgba(255, 255, 255, 0.75);
+        }
     }
 
     button {
