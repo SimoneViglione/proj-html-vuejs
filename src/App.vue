@@ -21,7 +21,7 @@
     <header>
         <PageHeader :links="links" :logo="logo" :slogan="slogan" :buttons="buttons"/>
 
-        <PageMain :buttons="buttons"/>
+        <PageMain :buttons="buttons" :slogan="slogan"/>
     </header>
 </template>
 
