@@ -23,7 +23,7 @@
 
             <p>Curabitur non mi et turpis pharetra vulputate. Cras consequat. risus nec commodo vehicula, nisi est laoreet leo, ac convallis nisi nibh id velit.</p>
 
-            <a> {{ buttons[0] }} </a>
+            <a class="yellow-button"> {{ buttons[0] }} </a>
         </div>
 
         <div class="right">
@@ -115,15 +115,12 @@
                     margin-left: 7rem;
                     margin-bottom: 1rem;
                     font-size: 0.8rem;
+                    color: var(--tuna);
                 }
 
                 a {
                     margin-left: 7rem;
                     margin-top: 2rem;
-                    background-color: var(--my_goldenrod);
-                    padding: 8px 15px;
-                    color: white;
-                    font-size: 0.9rem;
                     display: block;
                     width: 140px;
                 }

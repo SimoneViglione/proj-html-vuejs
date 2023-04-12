@@ -22,7 +22,7 @@
         <div class="slogan">
             <h1>{{ slogan[0] }}</h1>
             <p>{{ slogan[1] }}</p>
-            <button class="transparent-button"> {{ buttons[0] }} </button> <button class="yellow-button"> {{ buttons[1] }} </button>
+            <button class="transparent-button"> {{ buttons[0] }} </button> <button class="transparent-yellow-button"> {{ buttons[1] }} </button>
 
         </div>
     </div>
@@ -82,12 +82,13 @@
 
         p {
             margin-top: 1rem;
-            color: rgba(255, 255, 255, 0.75);
+            color: var(--french);
         }
     }
 
     button {
         margin-top: 2rem;
+        margin-right: 1rem;
 
          &:hover {
             cursor: pointer;

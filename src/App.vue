@@ -9,8 +9,8 @@
         data() {
             return {
                 links: ["HOME", "MISSION", "CAUSES", "JOURNAL", "DONATE"],
-                logo: "../public/logo.png",
-                slogan: ["MAKE A DIFFERENCE", "As long as poverty, injustice & inequality persist, none of us can truly rest", "Think Big. Act Bigger"],
+                logo: "/logo.png",
+                slogan: ["MAKE A DIFFERENCE", "As long as poverty, injustice & inequality persist, none of us can truly rest"],
                 buttons: ["OUR MISSION", "DONATE NOW", "LEARN MORE"]
             }
         }

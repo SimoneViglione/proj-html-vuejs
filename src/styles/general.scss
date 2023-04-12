@@ -28,12 +28,24 @@
     color: white;
   }
 
-  .yellow-button {
+  .transparent-yellow-button {
     background-color: transparent;
     padding: 8px;
     color: var(--my_goldenrod);
   }
+
+  .yellow-button {
+    background-color: var(--my_goldenrod);
+    padding: 8px 15px;
+    color: white;
+    font-size: 0.9rem;
+  }
   
   ul {
     list-style: none;
+  }
+
+  .underliner {
+    border: solid 2px var(--my_goldenrod);
+    width: 150px; 
   }
