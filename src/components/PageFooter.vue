@@ -15,24 +15,26 @@
 </script>
 
 <template>
-    <div class="upper-footer">
-       <div class="footer-title">
-            <h1>{{ slogan[3] }}</h1>
+    <footer>
 
-            <div class="underliner-footer"></div>
+        <div class="upper-footer">
+            <div class="footer-title">
+                <h1>{{ slogan[3] }}</h1>
 
-            <h3> {{ slogan[1] }} {{ slogan[2] }}</h3>
+                <div class="underliner-footer"></div>
 
-            <button class="transparent-button"> {{ buttons[3] }} </button> <button class="transparent-button"> {{ buttons[1] }} </button>
-        </div> 
-    </div>
-    
-    
+                <h3> {{ slogan[1] }} {{ slogan[2] }}</h3>
+
+                <button class="transparent-button"> {{ buttons[3] }} </button> <button class="transparent-button"> {{ buttons[1] }} </button>
+            </div> 
+        </div>
+        
+        
         <div class="logo-container">
-          <img :src="logo[1]" class="logo-footer" alt="">  
+            <img :src="logo[1]" class="logo-footer" alt="">  
         </div>
 
-        
+            
 
         <div class="bottom-footer">
             <div class="mentions">
@@ -43,10 +45,15 @@
                 <i v-for="(icon, index) in icons" :key="index" :class="icon"></i>
             </div>
         </div>
+    </footer>
         
 </template>
 
 <style scoped lang="scss">
+
+    footer {
+        margin-top: 12rem;
+    }
 
     .upper-footer {
         background-image: url(../assets/home-footer.jpg);
