@@ -37,7 +37,7 @@
             </div>
 
             <div class="banner">
-                <h4>VIEW ALL OUR CAUSES</h4>
+                <h1>VIEW ALL OUR CAUSES</h1>
             </div>
         </div>
     </section>
@@ -74,12 +74,19 @@
 
     .banner {
         margin-top: 100px;
-        height: 100px;
+        height: 150px;
         width: 100%;
         background-color: var(--sienna);
-        color: white;
         display: flex;  
         justify-content: center;
         align-items: center;
+
+            /*&:hover {
+                background-color: rgb(23, 145, 172);
+            }*/
+
+            h1 {
+                color: white;
+            }
     }
 </style>

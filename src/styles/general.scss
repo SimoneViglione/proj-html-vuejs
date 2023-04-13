@@ -26,6 +26,11 @@
     background-color: transparent;
     padding: 10px 20px;
     color: white;
+
+      &:hover {
+        color: var(--my_goldenrod);
+        border: solid 2px var(--my_goldenrod);
+      }
   }
 
   .transparent-yellow-button {

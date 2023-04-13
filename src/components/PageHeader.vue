@@ -3,7 +3,7 @@
         name: 'PageHeader',
         props: {
             links: Array,
-            logo: String,
+            logo: Array,
             slogan: Array,
             buttons: Array
         }    
@@ -45,7 +45,7 @@
 
             ul {
                 display: flex;
-                gap: 2rem;
+                gap: 3rem;
                 margin-left: 40%;
                 align-items: center;
             }

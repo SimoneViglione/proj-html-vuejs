@@ -61,7 +61,7 @@
 
 <style scoped lang="scss">
     #articles {
-        margin-top: 3rem;
+        padding-top: 5rem;
         width: 70%;
         margin: auto;
         

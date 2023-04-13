@@ -5,7 +5,7 @@
 
         props: {
             links: Array,
-            logo: String,
+            logo: Array,
             slogan: Array,
             buttons: Array,
             mentions: Array,
@@ -23,7 +23,7 @@
 
             <h3> {{ slogan[1] }} {{ slogan[2] }}</h3>
 
-            <button class="transparent-button"> {{ buttons[0] }} </button> <button class="transparent-button"> {{ buttons[3] }} </button>
+            <button class="transparent-button"> {{ buttons[3] }} </button> <button class="transparent-button"> {{ buttons[1] }} </button>
         </div> 
     </div>
     
@@ -88,6 +88,26 @@
         img {
             height: 50px;
         }
+    }
+
+    .bottom-footer {
+        background-color: rgb(230, 228, 228);
+        text-align: center;
+    }
+
+    .mentions {
+        font-size: 12px;
+        color: var(--edward);
+        padding-top: 2rem;
+    }
+
+    .social {
+        color: var(--my_goldenrod);
+        font-size: 2rem;
+
+            i {
+                margin: 1rem 5px;
+            }
     }
   
 </style>
