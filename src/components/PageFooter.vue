@@ -50,11 +50,6 @@
 </template>
 
 <style scoped lang="scss">
-
-    footer {
-        margin-top: 12rem;
-    }
-
     .upper-footer {
         background-image: url(../assets/home-footer.jpg);
         background-position: center;

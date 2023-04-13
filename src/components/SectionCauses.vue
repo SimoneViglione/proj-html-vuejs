@@ -44,10 +44,6 @@
 </template>
 
 <style scoped lang="scss">
-
-    #causes {
-        height: 600px;
-    }
     .causes-title {
         text-align: center;
         margin-top: 3rem;
@@ -81,9 +77,10 @@
         justify-content: center;
         align-items: center;
 
-            /*&:hover {
+            &:hover {
                 background-color: rgb(23, 145, 172);
-            }*/
+                cursor: pointer;
+            }
 
             h1 {
                 color: white;

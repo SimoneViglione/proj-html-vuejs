@@ -77,26 +77,43 @@
 
         .cards-container {
             display: flex;
+            justify-content: center;
             text-align: center;
-            margin-top: 8rem;
+            padding-top: 8rem;
+            margin: auto;
 
-                .cards {
-                    width: calc(100% / 4);
+            .cards {
+                width: calc((100% / 4) - 3rem);
+
+                    &:hover {
+
+                        cursor: pointer;
 
                         i {
-                            font-size: 4rem;
-                            color: var(--my_goldenrod);
+                            color: rgb(36, 136, 139);
                         }
 
-                        h1 {
-                            margin: 2rem 0;
+                        a {
+                            border: solid 2px white;
+                            background-color: rgb(36, 136, 139);
                         }
+                        
+                    }
 
-                        p{
-                            margin: 2rem 0;
-                            color: var(--french);
-                        }
+                i {
+                    font-size: 4rem;
+                    color: var(--my_goldenrod);
                 }
+
+                h1 {
+                    margin: 2rem 0;
+                }
+
+                p{
+                    margin: 2rem 0;
+                    color: var(--french);
+                }
+            }
         }
     }
 </style>

@@ -39,7 +39,6 @@
 
     .header-nav {
         display: flex;
-        padding-top: 3rem;
         height: 100px;
         align-items: center;
 
@@ -99,8 +98,10 @@
         color: var(--my_goldenrod);
         border: var(--my_goldenrod) solid 2px;
 
-            &:active {
-                color: black;
+            &:hover {
+                color: white;
+                border: solid 2px white;
+                background-color: var(--tuna);
             }
     }
 

@@ -80,7 +80,6 @@
 
 <style scoped lang="scss">
     #articles {
-        padding-top: 5rem;
         width: 70%;
         margin: auto;
         height: 1000px;
@@ -169,7 +168,6 @@
         background-color: var(--sienna);
         color: white;
         padding: 15px 0;
-        margin-bottom: 5rem;
         text-align: center;
 
         &:hover {
