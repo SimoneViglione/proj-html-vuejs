@@ -7,15 +7,19 @@
                 images: [
                 {
                     path: 'src/assets/fair-trade.jpg',
+                    title: 'Fair Trade'
                 },
                 {
                     path: 'src/assets/shelter.jpg',
+                    title: 'Shelter'
                 },
                 {
                     path: 'src/assets/farming.jpg',
+                    title: 'Farming'
                 },
                 {
                     path: 'src/assets/vaccines.jpg',
+                    title: 'Vaccines'
                 }
                 ]
             }
@@ -33,7 +37,11 @@
             <h3> We run projects in over 30 countries in 5 contintents </h3>
 
             <div class="gallery">
-                <img v-for="(image, index) in images" :key="index" :src="image.path" alt="image">
+                <div class="image-wrapper" v-for="(image, index) in images" :key="index">
+                    <img :src="image.path" alt="image">
+                    <h3>{{ image.title }}</h3> 
+                </div>
+                
             </div>
 
             <div class="banner">
@@ -62,9 +70,41 @@
         margin-top: 6rem;
         gap: 10px;
 
+        .image-wrapper {
+            margin: auto;
+            position: relative;
+
+            &:hover {
+                h3 {
+                    display: block;
+                    
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background-color: var(--sienna-transparent);
+                }
+            }
+
+
+
+            h3 {
+                display: none;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+            }
+        }
+
         img {
             height: 250px;
-            margin: auto;
         }
     }
 

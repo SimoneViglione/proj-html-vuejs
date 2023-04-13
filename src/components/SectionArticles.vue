@@ -135,6 +135,7 @@
     .first-article-description {
         border: solid 1px rgba(128, 128, 128, 0.363);
         border-top: none;
+        box-shadow: 1px rgba(190, 190, 190, 0.562);
 
         padding-top: 1rem;
 
@@ -161,6 +162,7 @@
 
             h4 {
                 color: var(--my_goldenrod);
+                margin-bottom: 1rem;
             }
     }
 
