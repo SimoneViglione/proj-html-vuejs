@@ -37,7 +37,7 @@
             </div>
 
             <div class="banner">
-                <h3>VIEW ALL OUR CAUSES</h3>
+                <h4>VIEW ALL OUR CAUSES</h4>
             </div>
         </div>
     </section>
@@ -51,14 +51,23 @@
     .causes-title {
         text-align: center;
         margin-top: 3rem;
+
+            h1 {
+                letter-spacing: 2px;
+            }
+
+            h3 {
+                color: var(--tuna);
+            }
     }
 
     .gallery {
         display: flex;
         margin-top: 6rem;
+        gap: 10px;
 
         img {
-            height: 200px;
+            height: 250px;
             margin: auto;
         }
     }

@@ -69,6 +69,10 @@
         .value-title {
             padding-top: 3rem;
             text-align: center;
+
+                h1 {
+                    letter-spacing: 3px;
+                }
         }
 
         .cards-container {

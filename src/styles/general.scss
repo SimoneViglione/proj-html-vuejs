@@ -24,13 +24,13 @@
 
   .transparent-button {
     background-color: transparent;
-    padding: 8px;
+    padding: 10px 20px;
     color: white;
   }
 
   .transparent-yellow-button {
     background-color: transparent;
-    padding: 8px;
+    padding: 10px 15px;
     color: var(--my_goldenrod);
   }
 
@@ -39,6 +39,7 @@
     padding: 8px 15px;
     color: white;
     font-size: 0.9rem;
+    cursor: pointer;
   }
   
   ul {

@@ -13,7 +13,7 @@
 <template>
     <div class="jumbotron">
         <div class="header-nav">
-            <img :src="logo" class="logo-header" alt="Logo">
+            <img :src="logo[0]" class="logo-header" alt="Logo">
             <ul>
                 <li v-for="link in links" :key="link">{{ link }}</li>
             </ul>
